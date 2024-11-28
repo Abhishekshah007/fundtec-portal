@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/all-white-background-dbq280rqh4lth8hx.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    background: currentColor;
+}
+
+h4{
+    font-family: monospace,'sans-serif';
+}
+
+h4 span{
+    animation: blink 3s linear infinite;
+}
+
+
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }   
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+/* custom height */
+.vh-80 {
+    height: 80vh;
+  }
+  
